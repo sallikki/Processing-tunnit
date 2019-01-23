@@ -6,6 +6,9 @@ Voit seurata näitä ohjeita omatoimisesti tai mennä eteenpäin samaan tahtiin 
 ## Mitä teen ensin?
 
 Luo tunnukset openprocessing.org -sivulle. [Openprocessing](http://www.openprocessing.org)
+Aloita sitten klikkaamalla "Create a Sketch". Näet koodia. Aja koodi klikkaamalla play-nappia. 
+Palaa takaisin koodiin ja lisää ellipse(mouseX, mouseY, 20, 20) -rivin alle rivi fill(100, 150, 50);. Mitä tapahtuu?
+Kokeile muuttaa fill-rivin <i>attribuutteja</i>. Mitä jos vaihdat jonkin tilalle "mouseX" tai "mouseY"?
 
 ### Esimerkkikoodi
 
