@@ -1,6 +1,7 @@
 # Luova ohjelmointi 7A
 
 Hello world! Tervetuloa luovaan ohjelmointiin.
+Voit seurata näitä ohjeita omatoimisesti tai mennä eteenpäin samaan tahtiin kuin opettaja.
 
 ## Mitä teen ensin?
 
