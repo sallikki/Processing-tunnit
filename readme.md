@@ -21,27 +21,36 @@ Mitä tapahtuu?
 
 ### Esimerkkikoodi
 
-Kopioi tämä koodi ja testaa mitä se tekee
+Kopioi tämä koodi Processing-ikkunaasi ja testaa mitä se tekee:
 
 ```
-void main(){
+size(600,400); //piirtoalueen koko pikseleinä
+background(200); //taustan väri. Yksi luku merkitsee harmaasävyä, kolme lukua merkitsee RGB-arvoa.
+stroke(120,0,0); //viivan väri RGB-arvona
+fill(180,0,100); //täyttöväri RGB-arvona
+ellipse(300,200,40,40); //ensin koordinaatit, johon piirretään, ja sitten ellipsin koko pikseleinä
+```
+Ellipsin lisäksi voi piirtää muitakin muotoja: rect (suorakulmio), triangle (kolmio), point (piste), line (viiva).
+<br>Luvut merkitsevät eri asioita. Lue koodin kommentit eli //näin kirjoitetut jutut tarkasti, niin saat selville, mitä!
+<p>Cheat Sheet -tiedostosta löydät eri muodoille annettavat attribuutit. <b>Kysy neuvoa, jos et ymmärrä!</b>
+
+## Tehtävä
+
+Piirrä oma kuva (tai omakuva) eri muotoja ja värejä hyödyntäen! 
+
+# 2. tunti. Animaatiota! Liikkuvaa kuvaa!
+
+Jotta piirros saadaan liikkumaan, koodi täytyy kirjoittaa hieman eri tavalla. Tarvitaan kaksi <b>lohkoa</b>. 
+```
+void setup(){
 
 }
 
-void draw(){
+void draw() {
 
 }
 ```
-
-
-
-## Otsikko
-
-tekstiä
-
-## 2. otsikko
-
-tekstiä
+Tee uusi sketch ja kopioi koodi sinne. 
 
 ## Authors
 
