@@ -86,7 +86,8 @@ Koska ohjelma toistaa draw-lohkoa yhä uudelleen, paikka-muuttuja kasvaa jokaise
 
 Kokeile, mitä kaikkea saat automatisoitua ja animoitua. Testaa rohkeasti juttuja, joita löydät Cheat sheetista.
 <p><b>Vinkki!</b> Voit käyttää luvun tilalla funktiota Random(). Random arpoo luvun antamaltasi väliltä, tähän tapaan:
-```
+
+```  
 ellipse(random(0,600), random(0,600), 40, 40);
 ```
 
