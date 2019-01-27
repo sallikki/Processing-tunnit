@@ -6,7 +6,9 @@ Voit seurata näitä ohjeita omatoimisesti tai mennä eteenpäin samaan tahtiin 
 ## Mitä teen ensin?
 
 Luo tunnukset openprocessing.org -sivulle. [Openprocessing](http://www.openprocessing.org)
-<p>Aloita sitten klikkaamalla "Create a Sketch". Näet koodia. Aja koodi klikkaamalla play-nappia. 
+<p>Aloita sitten klikkaamalla "Create a Sketch". Näet koodia. 
+<p><b>HUOM! Klikkaa oikealta sivupalkista kohdasta mode "Processing.js"</b>
+<br>Aja koodi klikkaamalla play-nappia. 
 <p>Palaa takaisin koodiin ja lisää 
 
 ```
@@ -39,18 +41,54 @@ Ellipsin lisäksi voi piirtää muitakin muotoja: rect (suorakulmio), triangle (
 Piirrä oma kuva (tai omakuva) eri muotoja ja värejä hyödyntäen! 
 
 # 2. tunti. Animaatiota! Liikkuvaa kuvaa!
+## Aloitus
 
 Jotta piirros saadaan liikkumaan, koodi täytyy kirjoittaa hieman eri tavalla. Tarvitaan kaksi <b>lohkoa</b>. 
 ```
-void setup(){
+void setup(){ //setup-osa tapahtuu ohjelmassa vain kerran
 
 }
 
-void draw() {
+void draw() { //draw-osa tapahtuu yhä uudelleen niin kauan, kunnes ohjelma lopetetaan
 
 }
 ```
-Tee uusi sketch ja kopioi koodi sinne. 
+Tee uusi sketch ja kopioi koodi sinne. Lisää setup-lohkoon viime tunnin koodista yksi rivi, näin luomme "piirustuspaperin".
+```
+size(600,600);
+```
+Lisää sitten draw-lohkoon loput viime tunnin koodin rivit
+```
+background(100);
+stroke(120,0,0); //voit taas valita värit ja muodot, kuten haluat
+fill(180,0,100); 
+ellipse(300,200,40,40); 
+```
+Vielä koodi ei tee mitään jännittävää, näyttää oikeastaan ihan samalta kuin aiemminkin. Mitä huijausta???
+
+### Toinen vaihe
+
+Kuvan saa liikkumaan niin, että draw-lohkoa varten luodaan <b>muuttuja</b>, joka kasvaa tai vähenee sitä mukaa, kuin koodia ajetaan. 
+<br> Muuttuja voi liittyä piirrettävän asian sijaintiin, väriin, ihan mihin vaan. Kokeillaan!
+
+Luodaan ensin muuttuja. Kirjoita ihan ohjelman alkuun
+```
+int paikka = 1;
+```
+Sitten draw-lohkoon seuraava muutos (muut rivit ennallaan):
+```
+ellipse(paikka, paikka, 40, 40);
+paikka = paikka + 1;
+```
+Koska ohjelma toistaa draw-lohkoa yhä uudelleen, paikka-muuttuja kasvaa jokaisella kierroksella yhdellä. Kokeile, mitä tapahtuu!
+
+### Tehtävä
+
+Kokeile, mitä kaikkea saat automatisoitua ja animoitua. Testaa rohkeasti juttuja, joita löydät Cheat sheetista.
+<p><b>Vinkki!</b> Voit käyttää luvun tilalla funktiota Random(). Random arpoo luvun antamaltasi väliltä, tähän tapaan:
+```
+ellipse(random(0,600), random(0,600), 40, 40);
+```
 
 ## Authors
 
