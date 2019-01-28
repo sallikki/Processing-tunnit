@@ -9,36 +9,8 @@ Luo tunnukset openprocessing.org -sivulle. [Openprocessing](http://www.openproce
 <p>Aloita sitten klikkaamalla "Create a Sketch". Näet koodia. 
 <p><b>HUOM! Klikkaa oikealta sivupalkista kohdasta mode "Processing.js"</b>
 
-<p>Pyyhi kaikki pois ja kopioi seuraava koodi ikkunaan:
+<p>Pyyhi kaikki valmis koodi pois ja kopioi seuraava koodi ikkunaan:
   
-```
-void setup() {
-	fullScreen();
-	background(100);
-
-}
-
-void draw() {
-	ellipse(mouseX, mouseY, 20, 20);
-}
-```
-  
-<br>Aja koodi klikkaamalla play-nappia. 
-<p>Palaa takaisin koodiin ja lisää 
-
-```
-ellipse(mouseX, mouseY, 20, 20);
-```
--rivin alle rivi 
-```
-fill(100, 150, 50);
-```
-Mitä tapahtuu?
-<br>Kokeile muuttaa fill-rivin <i>attribuutteja</i>. Mitä jos vaihdat jonkin tilalle "mouseX" tai "mouseY"?
-
-### Esimerkkikoodi
-
-Kopioi tämä koodi Processing-ikkunaasi ja testaa mitä se tekee:
 
 ```
 size(600,400); //piirtoalueen koko pikseleinä
@@ -59,27 +31,34 @@ Piirrä oma kuva (tai omakuva) eri muotoja ja värejä hyödyntäen!
 ## Aloitus
 
 Jotta piirros saadaan liikkumaan, koodi täytyy kirjoittaa hieman eri tavalla. Tarvitaan kaksi <b>lohkoa</b>. 
+
+
 ```
-void setup(){ //setup-osa tapahtuu ohjelmassa vain kerran
+void setup() { 			//setup-osa tapahtuu ohjelmassa vain kerran
+	fullScreen();
+	background(100);
 
 }
 
-void draw() { //draw-osa tapahtuu yhä uudelleen niin kauan, kunnes ohjelma lopetetaan
-
+void draw() {			//draw-osa tapahtuu yhä uudelleen niin kauan, kunnes ohjelma lopetetaan
+	ellipse(mouseX, mouseY, 20, 20);
 }
 ```
-Tee uusi sketch ja kopioi koodi sinne. Lisää setup-lohkoon viime tunnin koodista yksi rivi, näin luomme "piirustuspaperin".
+  
+<br>Aja koodi klikkaamalla play-nappia. 
+<p>Palaa takaisin koodiin ja lisää 
+
 ```
-size(600,600);
+ellipse(mouseX, mouseY, 20, 20);
 ```
-Lisää sitten draw-lohkoon loput viime tunnin koodin rivit
+-rivin alle rivi 
 ```
-background(100);
-stroke(120,0,0); //voit taas valita värit ja muodot, kuten haluat
-fill(180,0,100); 
-ellipse(300,200,40,40); 
+fill(100, 150, 50);
 ```
-Vielä koodi ei tee mitään jännittävää, näyttää oikeastaan ihan samalta kuin aiemminkin. Mitä huijausta???
+Mitä tapahtuu?
+<br>Kokeile muuttaa fill-rivin <i>attribuutteja</i>. Mitä jos vaihdat jonkin tilalle "mouseX" tai "mouseY"?
+
+<p>Voit taas leikkiä muodoilla ja väreillä, kuten viimekin tunnilla. Mutta miten asiat saisi liikkumaan itsestään, kuten animaatiossa?
 
 ### Toinen vaihe
 
