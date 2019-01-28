@@ -13,13 +13,14 @@ Luo tunnukset openprocessing.org -sivulle. [Openprocessing](http://www.openproce
   
 
 ```
-size(600,400); //piirtoalueen koko pikseleinä
-background(200); //taustan väri. Yksi luku merkitsee harmaasävyä, kolme lukua merkitsee RGB-arvoa.
-stroke(120,0,0); //viivan väri RGB-arvona
-fill(180,0,100); //täyttöväri RGB-arvona
-ellipse(300,200,40,40); //ensin koordinaatit, johon piirretään, ja sitten ellipsin koko pikseleinä
+size(600,400); 			//piirtoalueen koko pikseleinä
+background(200); 		//taustan väri. Yksi luku merkitsee harmaasävyä, kolme lukua merkitsee RGB-arvoa.
+stroke(120,0,0); 		//viivan väri RGB-arvona
+fill(180,0,100); 		//täyttöväri RGB-arvona
+ellipse(300,200,40,40); 	//ensin koordinaatit, johon piirretään, ja sitten ellipsin koko pikseleinä
 ```
-Ellipsin lisäksi voi piirtää muitakin muotoja: rect (suorakulmio), triangle (kolmio), point (piste), line (viiva).
+Aja koodi klikkaamalla Play-nappia koodin yläpuolelta!
+<p>Ellipsin lisäksi voi piirtää muitakin muotoja: rect (suorakulmio), triangle (kolmio), point (piste), line (viiva).
 <br>Luvut merkitsevät eri asioita. Lue koodin kommentit eli //näin kirjoitetut jutut tarkasti, niin saat selville, mitä!
 <p>Cheat Sheet -tiedostosta löydät eri muodoille annettavat attribuutit. <b>Kysy neuvoa, jos et ymmärrä!</b>
 
@@ -75,15 +76,20 @@ ellipse(paikka, paikka, 40, 40);
 paikka = paikka + 1;
 ```
 Koska ohjelma toistaa draw-lohkoa yhä uudelleen, paikka-muuttuja kasvaa jokaisella kierroksella yhdellä. Kokeile, mitä tapahtuu!
+<p>
+<p>Aika kiva, mutta ympyrästä jää jälki taustaan. Jos haluat sen pois, lisää draw-lohkoon vielä background-rivi, joka on nyt setup-lohkossa. Näin tausta piirretään joka kierroksella uudelleen ja ympyrä pyyhkiytyy pois samalla. Testaa! 
 
 ### Tehtävä
 
 Kokeile, mitä kaikkea saat automatisoitua ja animoitua. Testaa rohkeasti juttuja, joita löydät Cheat sheetista.
-<p><b>Vinkki!</b> Voit käyttää luvun tilalla funktiota Random(). Random arpoo luvun antamaltasi väliltä, tähän tapaan:
+
+### Vinkkejä
+Voit käyttää luvun tilalla funktiota random(). Random arpoo luvun antamaltasi väliltä, tähän tapaan:
 
 ```  
 ellipse(random(0,600), random(0,600), 40, 40);
 ```
+Tiedätkö, mitä ovat ehtolauseet tai silmukat? Emme ehdi käydä niitä yhdessä läpi näillä tunneilla, mutta niitä käytetään Processingissa samoin kuin muissakin kielissä. Testaa rohkeasti, jos osaat niitä valmiiksi! :)
 
 ## Authors
 
