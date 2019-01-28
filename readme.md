@@ -9,7 +9,7 @@ Luo tunnukset openprocessing.org -sivulle. [Openprocessing](http://www.openproce
 <p>Aloita sitten klikkaamalla "Create a Sketch". Näet koodia. 
 <p><b>HUOM! Klikkaa oikealta sivupalkista kohdasta mode "Processing.js"</b>
 
-<p>Pyyhi kaikki pois ja kopio seuraava koodi ikkunaan:
+<p>Pyyhi kaikki pois ja kopioi seuraava koodi ikkunaan:
   
 ```
 void setup() {
