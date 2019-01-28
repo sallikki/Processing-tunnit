@@ -8,6 +8,21 @@ Voit seurata näitä ohjeita omatoimisesti tai mennä eteenpäin samaan tahtiin 
 Luo tunnukset openprocessing.org -sivulle. [Openprocessing](http://www.openprocessing.org)
 <p>Aloita sitten klikkaamalla "Create a Sketch". Näet koodia. 
 <p><b>HUOM! Klikkaa oikealta sivupalkista kohdasta mode "Processing.js"</b>
+
+<p>Pyyhi kaikki pois ja kopio seuraava koodi ikkunaan:
+  
+```
+void setup() {
+	fullScreen();
+	background(100);
+
+}
+
+void draw() {
+	ellipse(mouseX, mouseY, 20, 20);
+}
+```
+  
 <br>Aja koodi klikkaamalla play-nappia. 
 <p>Palaa takaisin koodiin ja lisää 
 
