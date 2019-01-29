@@ -94,6 +94,7 @@ ellipse(random(0,600), random(0,600), 40, 40);
 framerate(30);
 ```
 
+* Voit kokeilla mutojen liikuttelua kierrolla vaikkapa seuraavalla koodipätkällä:
 ```
 float angle; //Määritellään muuttuja angle
 
