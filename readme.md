@@ -84,12 +84,16 @@ Koska ohjelma toistaa draw-lohkoa yhä uudelleen, paikka-muuttuja kasvaa jokaise
 Kokeile, mitä kaikkea saat automatisoitua ja animoitua. Testaa rohkeasti juttuja, joita löydät Cheat sheetista.
 
 ### Vinkkejä
-Voit käyttää luvun tilalla funktiota random(). Random arpoo luvun antamaltasi väliltä, tähän tapaan:
+* Voit käyttää luvun tilalla funktiota random(). Random arpoo luvun antamaltasi väliltä, tähän tapaan:
 
 ```  
 ellipse(random(0,600), random(0,600), 40, 40);
 ```
-Tiedätkö, mitä ovat ehtolauseet tai silmukat? Emme ehdi käydä niitä yhdessä läpi näillä tunneilla, mutta niitä käytetään Processingissa samoin kuin muissakin kielissä. Testaa rohkeasti, jos osaat niitä valmiiksi! :)
+* Jos käytät randomia ja animaatiostasi tulee aivan liian nopea, voit laskea sen <b>frameratea</b>, joka on oletuksena 60 ruutua/sekunti. Kirjoita koodi setup-lohkoon.
+```
+framerate(30);
+```
+* Tiedätkö, mitä ovat ehtolauseet tai silmukat? Emme ehdi käydä niitä yhdessä läpi näillä tunneilla, mutta niitä käytetään Processingissa samoin kuin muissakin kielissä. Testaa rohkeasti, jos osaat niitä valmiiksi! :)
 
 ## Authors
 
