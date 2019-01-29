@@ -93,6 +93,29 @@ ellipse(random(0,600), random(0,600), 40, 40);
 ```
 framerate(30);
 ```
+
+```
+float angle; //Määritellään muuttuja angle
+
+void setup() {
+  size(740, 560);
+  noStroke();
+  fill(255);
+  rectMode(CENTER); //piirtää suorakulmion alkaen keskipisteestä
+}
+
+void draw() {
+  background(51);
+  
+  angle = angle + 0.005;  //muutujan angle arvo kasvaa joka kierroksella 0.005
+  translate(width/2, height/2); //siirtää "kynän" keskelle aluetta
+  rotate(angle); //kierto
+  rect(0, 0, 180, 180); //piirtää suorakulmion
+
+```
+
+
+
 * Tiedätkö, mitä ovat ehtolauseet tai silmukat? Emme ehdi käydä niitä yhdessä läpi näillä tunneilla, mutta niitä käytetään Processingissa samoin kuin muissakin kielissä. Testaa rohkeasti, jos osaat niitä valmiiksi! :)
 
 ## Authors
