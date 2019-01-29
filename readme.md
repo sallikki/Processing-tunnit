@@ -115,7 +115,7 @@ void draw() {
 
 ```
 
-
+* Huomaatko? Yllä olevassa koodinpätkässä on (ainakin) yksi virhe ja koodi ei toimi! Löydätkö virheen?
 
 * Tiedätkö, mitä ovat ehtolauseet tai silmukat? Emme ehdi käydä niitä yhdessä läpi näillä tunneilla, mutta niitä käytetään Processingissa samoin kuin muissakin kielissä. Testaa rohkeasti, jos osaat niitä valmiiksi! :)
 
