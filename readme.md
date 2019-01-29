@@ -119,6 +119,12 @@ void draw() {
 
 * Tiedätkö, mitä ovat ehtolauseet tai silmukat? Emme ehdi käydä niitä yhdessä läpi näillä tunneilla, mutta niitä käytetään Processingissa samoin kuin muissakin kielissä. Testaa rohkeasti, jos osaat niitä valmiiksi! :)
 
+## Lopputyönäyttely!
+
+Laitetaan luokan hienot teokset esille. Klikkaa kuvan mukaisista paikoista.
+
+Kopioi tallenettujen Sketchiesi koodit ja liitä ne <a href="https://maykhelma-my.sharepoint.com/:w:/g/personal/salli_kulmala_mayk_fi/EbBfiEflgzZGlNANnQGx9vYBBoXhSUTGNzLErKnIR9b6xA?e=l7u2pb">tänne</a>.
+
 ## Authors
 
 **Salli Kulmala** 
