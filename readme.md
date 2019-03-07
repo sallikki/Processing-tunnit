@@ -91,7 +91,7 @@ ellipse(random(0,600), random(0,600), 40, 40);
 ```
 * Jos käytät randomia ja animaatiostasi tulee aivan liian nopea, voit laskea sen <b>frameratea</b>, joka on oletuksena 60 ruutua/sekunti. Kirjoita koodi setup-lohkoon.
 ```
-framerate(30);
+frameRate(30);
 ```
 
 * Voit kokeilla mutojen liikuttelua kierrolla vaikkapa seuraavalla koodipätkällä:
