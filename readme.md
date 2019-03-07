@@ -1,4 +1,4 @@
-# Luova ohjelmointi 7A
+# Luova ohjelmointi -Osa 1. 
 
 Hello world! Tervetuloa luovaan ohjelmointiin.
 Voit seurata näitä ohjeita omatoimisesti tai mennä eteenpäin samaan tahtiin kuin opettaja.
@@ -28,7 +28,7 @@ Aja koodi klikkaamalla Play-nappia koodin yläpuolelta!
 
 Piirrä oma kuva (tai omakuva) eri muotoja ja värejä hyödyntäen! 
 
-# 2. tunti. Animaatiota! Liikkuvaa kuvaa!
+# Animaatiota! Liikkuvaa kuvaa!
 ## Aloitus
 
 Jotta piirros saadaan liikkumaan, koodi täytyy kirjoittaa hieman eri tavalla. Tarvitaan kaksi <b>lohkoa</b>. 
