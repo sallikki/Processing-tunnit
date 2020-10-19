@@ -2,15 +2,13 @@
 
 Hello world! Tervetuloa luovaan ohjelmointiin.
 Voit seurata näitä ohjeita omatoimisesti tai mennä eteenpäin samaan tahtiin kuin opettaja.
+Tämän readme-tiedoston lisäksi voit tutustua muihin tiedostoihin: Cheat Sheet on tosi kätevä ja mukana on myös esimerkkikoodia.
 
 ## Mitä teen ensin?
 
-Luo tunnukset openprocessing.org -sivulle. [Openprocessing](http://www.openprocessing.org)
-<p>Aloita sitten klikkaamalla "Create a Sketch". Näet koodia. 
-<p><b>HUOM! Klikkaa oikealta sivupalkista kohdasta mode "Processing.js"</b>
-
-<p>Pyyhi kaikki valmis koodi pois ja kopioi seuraava koodi ikkunaan:
-  
+Asenna Processing tietokoneelle. https://processing.org/download/ 
+Vaihtoehtoisesti voit käyttää Openprocessingia selaimella: https://www.openprocessing.org/ Muista silloin valita editorissa kieleksi processing.
+Avaa Processing-editori ja kopioi alla oleva koodi:
 
 ```
 size(600,400); 			//piirtoalueen koko pikseleinä
@@ -23,6 +21,11 @@ Aja koodi klikkaamalla Play-nappia koodin yläpuolelta!
 <p>Ellipsin lisäksi voi piirtää muitakin muotoja: rect (suorakulmio), triangle (kolmio), point (piste), line (viiva).
 <br>Luvut merkitsevät eri asioita. Lue koodin kommentit eli //näin kirjoitetut jutut tarkasti, niin saat selville, mitä!
 <p>Cheat Sheet -tiedostosta löydät eri muodoille annettavat attribuutit. <b>Kysy neuvoa, jos et ymmärrä!</b>
+<p> Värejä voi käsitellä RGB-arvoina mutta myös HSB on tutustumisen arvoinen. 
+	Lue lisää väreistä: 
+	https://processing.org/tutorials/color/
+	https://processing.org/reference/colorMode_.html
+	https://nycdoe-cs4all.github.io/units/1/lessons/lesson_3.2
 
 ## Tehtävä
 
@@ -83,7 +86,7 @@ Koska ohjelma toistaa draw-lohkoa yhä uudelleen, paikka-muuttuja kasvaa jokaise
 
 Kokeile, mitä kaikkea saat automatisoitua ja animoitua. Testaa rohkeasti juttuja, joita löydät Cheat sheetista.
 
-### Vinkkejä
+## Satunnaisuus
 * Voit käyttää luvun tilalla funktiota random(). Random arpoo luvun antamaltasi väliltä, tähän tapaan:
 
 ```  
@@ -93,7 +96,7 @@ ellipse(random(0,600), random(0,600), 40, 40);
 ```
 frameRate(30);
 ```
-
+## Vinkkejä
 * Voit kokeilla mutojen liikuttelua kierrolla vaikkapa seuraavalla koodipätkällä:
 ```
 float angle; //Määritellään muuttuja angle
