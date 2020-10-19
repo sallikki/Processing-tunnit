@@ -62,7 +62,7 @@ fill(100, 150, 50);
 Mitä tapahtuu?
 <br>Kokeile muuttaa fill-rivin <i>attribuutteja</i>. Mitä jos vaihdat jonkin tilalle "mouseX" tai "mouseY"?
 
-<p>Voit taas leikkiä muodoilla ja väreillä, kuten viimekin tunnilla. Mutta miten asiat saisi liikkumaan itsestään, kuten animaatiossa?
+<p>Voit taas leikkiä muodoilla ja väreillä, kuten viimekin tehtävässä. Mutta miten asiat saisi liikkumaan itsestään, kuten animaatiossa?
 
 ### Toinen vaihe
 
