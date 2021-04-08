@@ -7,8 +7,10 @@ Tämän readme-tiedoston lisäksi voit tutustua muihin tiedostoihin: Cheat Sheet
 ## Mitä teen ensin?
 
 Asenna Processing tietokoneelle. https://processing.org/download/ 
-Vaihtoehtoisesti voit käyttää Openprocessingia selaimella: https://www.openprocessing.org/ Muista silloin valita editorissa kieleksi processing.
-Avaa Processing-editori ja kopioi alla oleva koodi:
+Vaihtoehtoisesti voit käyttää Openprocessingia selaimella: https://www.openprocessing.org/ Muista silloin valita editorissa kieleksi processing (ks. kuva).
+![image](https://user-images.githubusercontent.com/36477772/113986664-29c02600-9856-11eb-943e-dc28f926c171.png)
+
+<p>Avaa Processing-editori ja kopioi alla oleva koodi:
 
 ```
 size(600,400); 			//piirtoalueen koko pikseleinä
@@ -23,9 +25,9 @@ Aja koodi klikkaamalla Play-nappia koodin yläpuolelta!
 <p>Cheat Sheet -tiedostosta löydät eri muodoille annettavat attribuutit. <b>Kysy neuvoa, jos et ymmärrä!</b>
 <p> Värejä voi käsitellä RGB-arvoina mutta myös HSB on tutustumisen arvoinen. 
 	Lue lisää väreistä: 
-	https://processing.org/tutorials/color/
-	https://processing.org/reference/colorMode_.html
-	https://nycdoe-cs4all.github.io/units/1/lessons/lesson_3.2
+	<br>https://processing.org/tutorials/color/
+	<br>https://processing.org/reference/colorMode_.html
+	<br>https://nycdoe-cs4all.github.io/units/1/lessons/lesson_3.2
 
 ## Tehtävä
 
